@@ -1,0 +1,153 @@
+body {
+    width: 1160px;
+    margin: 0 auto;
+    background-color: black;
+
+}
+
+.header {
+    width: 100%;
+    margin: 30px auto;
+
+}
+
+.header-logo {
+    line-height: 0.5px;
+}
+
+.header-title {
+    font-size: 35px;
+    font-family: serif;
+    color: aliceblue;
+}
+
+.sub-title {
+    font-family: serif;
+    color: aliceblue;
+}
+
+.inner {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+
+nav ul {
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    text-align: center;
+}
+
+nav li {
+    display: table-cell;
+    min-width: 50px;
+    font-family: serif;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+
+nav li.current {
+    border-bottom: 3px solid #92D050;
+}
+
+nav li:hover {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.wrapper {
+    width: 1160px;
+    margin: 0 auto;
+    padding-left: 20px;
+
+}
+
+.wrapper-video {
+    width: 100%;
+
+}
+
+.concept {
+    text-align: center;
+    max-width: 100%;
+    margin: 80px 0px;
+
+}
+
+.concept-title {
+    font-size: 29px;
+    font-family: serif;
+    color: darkgrey;
+}
+
+.content {
+    display: flex;
+    font-family: serif;
+}
+
+.content-title {
+    font-size: 25px;
+    color: aliceblue;
+    margin-top:0;
+    padding-top:0; 
+}
+
+.content-sub {
+    color: darkgrey;
+}
+
+.contents {
+    padding-bottom: 200px;
+}
+
+.simple_square_btn2 {
+    display: block;
+    position: relative;
+    width: 80px;
+    padding: 0.1em;
+    text-align: center;
+    text-decoration: none;
+    color: snow;
+    background: black;
+    border: 1px solid #1B1B1B;
+   
+}
+
+.simple_square_btn2:hover {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content-right {
+    width: 700px;
+    height: auto;
+}
+
+.content-sub {
+    line-height: 1.5;
+}
+
+.content-left {
+    margin-right: 30px;
+    color: darkgrey;
+}
+
+.plo {
+    width: 400px;
+    color: aliceblue;
+}
+
+.plo-top {
+    display: flex;
+}
